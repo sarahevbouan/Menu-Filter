@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
         menu.classList.add('active');
     });
 });
-let name = 'sasa';
+
 // Function for conditional filtering of menu list items based on the category clicked on
 let filterFunction = (category, event) => {
     menuList.forEach(menu => {
